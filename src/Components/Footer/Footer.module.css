@@ -1,0 +1,45 @@
+.footerPart1{
+background-color: rgb(68, 68, 68);
+color: whitesmoke;
+text-align: center;
+padding-top: 20px;
+}
+.footerPart1:hover{
+    background-color:rgb(79, 78, 78);
+}
+.footerPart1 button{
+    border: solid 1px white;
+    padding: 10px;
+}
+.footerPart1 button:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+.footerPart2{
+    background-color: rgb(43, 42, 42);
+}
+.footerPart2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footerPart2 a:hover{
+    color: bisque;
+    text-decoration: underline 1px;
+}
+c li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.h:hover{
+    background-color: rgb(59, 58, 58) !important;
+}
+.footerPart3 {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

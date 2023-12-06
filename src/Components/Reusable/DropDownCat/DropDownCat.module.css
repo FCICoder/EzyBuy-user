@@ -1,0 +1,22 @@
+.c li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+.c {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.c li:hover {
+    text-decoration: underline 1px;
+}
+.widhtimageCat{
+    width:50px;
+}
+.fachevron{
+    margin-left: 40px;
+}

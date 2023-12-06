@@ -1,0 +1,23 @@
+/*ps{
+    /* position: fixed; */
+/*}*/ 
+
+.container {
+    /* position: relative; */
+    /* height:90% !important; */
+    /* top:10% !important; */
+    /* margin-bottom: 12px; */
+    cursor: pointer !important;
+    /* font-size: 25px; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer !important;
+  }

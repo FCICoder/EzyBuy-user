@@ -1,0 +1,61 @@
+
+.show{
+    display: none;
+  }
+.hide_sm{
+  display: flex;
+}
+.hide{
+  display: flex;
+}
+.hide_cat{
+  display: block;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+
+  @media (max-width: 967px){
+    .show{
+        display: flex;
+    }
+    .hide {
+        display: none;
+    }
+    .hide_cat{
+      display: none;
+    }
+  }
+
+  @media (max-width:650px){
+    .hide_sm{
+      display: none;
+    }
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--main-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sec-color);
+}

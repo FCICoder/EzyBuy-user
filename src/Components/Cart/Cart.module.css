@@ -1,0 +1,50 @@
+
+.c li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.btun:hover{
+    color:blue !important; 
+    text-decoration: none !important;
+}
+.col_4{
+    max-height: 600px !important;
+}
+/* 
+@media (min-width: 700px) {
+    .col_4{
+        position:sticky !important;
+        height: fit-content;
+        /* top:1%; */
+   /* }
+ /* }
+   */
+  
+.title{
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price {
+    font-weight: bold;
+    color: green;
+}
+.quantity {
+    transform: translateY(20px);
+    animation: slideUp .3s ease-in forwards;
+    background-color: white;
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

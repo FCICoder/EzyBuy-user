@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+ border-radius: 5px;
+ width: 100%;
+ position: relative;
+ overflow: hidden;
+}
+.card div {
+    position: absolute;
+    padding: 1rem;
+}
+.card img {
+    display: flex;
+    border-radius: 5px;
+}
+
+.card h3 {
+    width: 230px;
+}
+
+.card a {
+    font-size: .7rem;
+    color: black;
+}
+@media (max-width: 767px) {
+    .card h3 {
+        width: 100px;
+        font-size: 3vw;
+    }
+    .card {
+        overflow: hidden;
+    }
+}

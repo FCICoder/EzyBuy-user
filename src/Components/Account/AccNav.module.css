@@ -1,0 +1,22 @@
+.links{
+    
+}
+.links a{
+    border-radius: 0;
+    padding: 5px;
+    padding-left: 15px ;
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: thin;
+
+}
+
+.active {
+    background-color: rgb(215, 240, 247);
+    border-left: 3px solid var(--main-color);
+}
+
+.links h4 {
+    padding: 1rem 0;
+}

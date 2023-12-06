@@ -1,0 +1,22 @@
+.ProductCarePlan {}
+.button{
+font-size:"14px" !important;
+font-weight: 600 !important;
+padding:1px 18px !important;
+
+}
+
+.button:hover{
+    color:lightcyan;
+    background-color:black;
+    background-color:rgb(209, 209, 209);
+}
+
+.c li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
