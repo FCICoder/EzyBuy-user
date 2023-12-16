@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
 define:{
   'process.env.STRIPE_SECRET_KEY':JSON.stringify(process.env.STRIPE_SECRET_KEY)
-}
+},
+    base: '/'
 })
